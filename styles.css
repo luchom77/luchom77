@@ -90,6 +90,25 @@ p {
 /* **** Components ****** */
 
 /* **** Carousel **** */
+
+@keyframes carousel-slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  25% {
+    transform: translateX(-25%);
+  }
+
+  50% {
+    transform: translateX(-50%);
+  }
+
+  75% {
+    transform: translateX(-75%);
+  }
+}
+
 .carousel {
   margin: 2rem auto;
   padding: 2rem 0;
@@ -101,10 +120,12 @@ p {
 
 .carousel .slides {
   /*100% por cada slide*/
+  padding-left: 0%;
   width: 400%;
   display: flex;
   list-style: none;
   transition: transform 0.5s ease-in-out;
+  animation: carousel-slide 25s ease-in-out 3s infinite;
 }
 
 .carousel input {
@@ -114,8 +135,8 @@ p {
 .carousel label {
   border: medium solid var(--gray-dark-color);
   border-radius: 50%;
-  margin: 0 0.25rem;
-  display: inline-block;
+  margin: 0 0.5rem;
+  display: /*none*/ inline-block;
   width: 0.75rem;
   height: 0.75rem;
   cursor: pointer;
@@ -573,4 +594,8 @@ progress::-moz-progress-bar {
   .services .section-title {
     grid-column: span 4;
   }
+}
+
+.social-media {
+  background-color: #000;
 }
