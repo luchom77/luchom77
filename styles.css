@@ -275,6 +275,7 @@ p {
 .hero-image-title {
   font-size: 7.5vw;
   color: var(--hero-text-color);
+  margin-bottom: 1rem;
 }
 
 /* **** Menu ****** */
@@ -470,7 +471,7 @@ progress::-moz-progress-bar {
   border-bottom: thin solid var(--first-color);
   margin: 2rem auto;
   padding: 0.5rem 1rem;
-  width: 250px;
+  width: 300px;
   text-align: center;
   color: var(--title-color);
 }
