@@ -128,6 +128,10 @@ p {
   animation: carousel-slide 25s ease-in-out 3s infinite;
 }
 
+.carousel .slides .slide {
+  width: 100%;
+}
+
 .carousel input {
   display: none;
 }
