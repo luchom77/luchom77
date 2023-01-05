@@ -125,7 +125,7 @@ p {
   display: flex;
   list-style: none;
   transition: transform 0.5s ease-in-out;
-  animation: carousel-slide 25s ease-in-out 3s infinite;
+  animation: carousel-slide 15s ease-in-out 3s;
 }
 
 .carousel .slides .slide {
