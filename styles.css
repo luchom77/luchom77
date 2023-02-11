@@ -286,6 +286,7 @@ p {
 .menu {
   position: fixed;
   left: 0;
+  right: 0;
   bottom: var(--header-height);
   width: 100%;
   display: flex;
